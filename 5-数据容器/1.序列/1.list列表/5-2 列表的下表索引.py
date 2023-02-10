@@ -19,17 +19,17 @@ print(list[-4])
 print(list[-5])
 
 # 通过下标索引取出对应位置的数据
-list = ["tom", 'dog', 'ford', 'BenZ']
+mylist = ["tom", 'dog', 'ford', 'BenZ']
 print(list[0])
 
 # 获取嵌套列表中的元素
-list = [['dog', 'cat'], ['青岛', "济南", "潍坊", "烟台"], ['山东省', '陕西省', '湖北省', '四川省']]
+mylist = [['dog', 'cat'], ['青岛', "济南", "潍坊", "烟台"], ['山东省', '陕西省', '湖北省', '四川省']]
 
-print(list)
-print(list[0])
-print(list[0][1])
+print(mylist)
+print(mylist[0])
+print(mylist[0][1])
 
-print(list[1][3])
+print(mylist[1][3])
 
 # 超出范围会报错
-print(list[4])
+print(mylist[4])

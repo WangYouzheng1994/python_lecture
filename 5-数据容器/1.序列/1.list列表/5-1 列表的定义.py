@@ -17,10 +17,10 @@
 ['123', 123, True]
 
 # 变量
-list = ['123', 123, True]
-print(list)
-list =[]
-print(list)
-print(type(list)) # <class 'list'>
-# list = list()
-
+mylist = ['123', 123, True]
+print(mylist)
+mylist =[]
+print(mylist)
+print(type(mylist)) # <class 'list'>
+emptylist = list()
+print(emptylist)
