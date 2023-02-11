@@ -4,7 +4,7 @@ name = 'abacstrasdb cab '
 
 # 下标取值 0开始
 print(name[2])
-# index获取指定元素的下标
+# index获取指定元素的第一个的下标
 print(name.index('a'))
 
 print(name.index('as'))

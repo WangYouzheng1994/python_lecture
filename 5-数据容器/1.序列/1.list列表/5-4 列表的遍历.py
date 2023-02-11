@@ -2,11 +2,11 @@
     将容器内的元素，依次取出，称之为遍历、迭代
 '''
 # while 遍历
-mylist = [1,3,5,11,1,3,8,7,6]
+mylist = [1, 3, 5, 11, 1, 3, 8, 7, 6]
 def while_iterator():
     index = 0
     while index < len(mylist):
-        item = list[index]
+        item = mylist[index]
         print(item)
         index += 1
 

@@ -5,6 +5,7 @@ while index < len(t8):
     print(f"元祖的元素有：{t8[index]}")
     index += 1
 
+print('------------------------- FOR ITERATOR START')
 # for 循环迭代
 for element in t8:
     print(f"元祖的元素：{element}")

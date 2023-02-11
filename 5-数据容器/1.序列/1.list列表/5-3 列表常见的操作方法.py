@@ -14,23 +14,22 @@
     讲解堆栈内存的模型
 '''
 
-# 1. 查找某个元素是否存在
+# 1. 查找某个元素是否存在,并返回对应元素的第一个下标，如果找不到就报错
 mylist = ['小狗', '小猫', '小老虎']
 
 # print(list.index('狗狗~')) 出现ValueError异常，程序终止了
-
 print(mylist.index('小老虎'))
 
 # 2.修改指定位置（索引）的元素值
 mylist[1] = '小猫~~~'
-
 print(list)
+
 mylist[-2] = '猫'
 print(mylist)
 
 # 3. 插入元素 insert(从第几个进行插入, 插入的元素)
 mylist.insert(1, 123) # 插入新值，从第一个值开始插入，123
-mylist.insert(40, '乌龟') # 从第40个开始插入，但是目前最大值5
+mylist.insert(40, '乌龟') # 从第40个开始插入，但是目前最大值5，那么就会变成append的动作
 print(mylist)
 
 # 4. 末尾追加 append(元素)
@@ -62,11 +61,11 @@ mylist.remove("1")
 print(mylist)
 
 # 8. 清空列表
-mylist.clear();
+mylist.clear()
 print(mylist)
 
 # 9. 统计列表内某元素的数量 count(元素)
-last_list = [1,2,3,3,4,1,5]
+last_list = [1, 2, 3, 3, 4, 1, 5]
 mylist.extend(last_list)
 print(mylist)
 print(mylist.count(1))
