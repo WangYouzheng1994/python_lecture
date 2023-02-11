@@ -15,7 +15,7 @@ print(new_name)
 # split切割
 new_name = name.split("a")
 print(new_name)
-# strip 两头去除掉
+# strip 两头去除掉空格和换行符
 new_name = name.strip()
 print(new_name)
 
