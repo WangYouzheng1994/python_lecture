@@ -4,7 +4,7 @@ print(type('字符串字面量'))
 print(type(666))
 print(type(11.3333))
 
-# print("----输出字面量类型---END")
+print("----输出字面量类型---END")
 
  # 方法2： 使用变量存储type()语句的结果
 string_type = type("字符串字面量")
@@ -15,7 +15,7 @@ print(int_type)
 print(float_type)
 print('----输出变量存储的type转换后的结果值 END')
 #
-# # 方法3： 使用type()语句，查看变量中存储的数据类型信息
+# 方法3： 使用type()语句，查看变量中存储的数据类型信息
 str_variable = '字符串变量'
 int_variable = 123
 float_variable = 123.555

@@ -7,6 +7,8 @@ print(name + "学python，考了 %s 分，很棒~" % score)
 text = '实名制夸奖一下'
 print(name + "学python，考了 %s 分，%s，很棒~" %(score, text))
 
+print('%s学python，考了 %s 分，%s，很棒~' % (name, score, text))
+
 '''
     %s 字符串  %d 整数 %f 浮点型
 '''

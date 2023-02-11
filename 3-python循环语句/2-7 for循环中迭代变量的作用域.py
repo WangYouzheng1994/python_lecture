@@ -6,6 +6,6 @@
 
 name = '胶税大讲堂'
 for char in name:
-    print(char);
+    print(char)
 
 print(char) # 能访问到，但是不建议这么写

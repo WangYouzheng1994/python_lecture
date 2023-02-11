@@ -18,7 +18,12 @@ def print_cus():
     print('我是一个函数哈')
 
 print_cus()
-print_cus()
+
+def print_cus_2():
+    print(input('请输入您需要我打印的内容~'))
+
+print_cus_2()
+
 
 # 定义一个有参数的函数 接受两个参数(x, y 被称之为形参)，并返回两个参数的和
 def add(x, y):

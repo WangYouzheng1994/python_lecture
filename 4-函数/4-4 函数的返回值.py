@@ -9,5 +9,5 @@ def add(x, y):
     # return 后面的代码不会执行
     print("我在result后面哈")
 
-
-print(type(add(1, 55.3)))
+print(add(1, 55.3))
+# print(type(add(1, 55.3)))

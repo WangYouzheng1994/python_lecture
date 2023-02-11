@@ -10,6 +10,11 @@ salary = 1200.50
 
 # 语法 f""，在字符串中 {变量名称}
 print(f"我是{variable_name}, 我出生于{birth_day}, 我的薪水是{salary}")
+# print(f'我是{variable_name}, 我出生于{birth_day}, 我的薪水是{salary}')
+
+# 其实是个代码块 可以执行代码
+# print(f"我是{variable_name}{salary}, 我出生于{birth_day}, 我的薪水是{salary}")
+
 
 print(salary)
 print(str(salary)) #不是print去掉了0
