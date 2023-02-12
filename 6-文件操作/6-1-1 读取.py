@@ -3,7 +3,7 @@
 1.常见的文件编码字符集有：UTF-8（支持中文），GBK（中文，支持的字儿更多），BIG5（繁体字更多）
 2.编码、解码的目的是：将人类能看懂的字符或者数据与计算机能看懂的数据（0，1）进行互转
 互转的基础就是 编码字符集。编码字符集中存储了所有明文与对应的二进制信息。
-3.UTF8是全球最通用的编码字符集，如果没有特殊要求一律使用UTF8（约定优于配置）
+3.UTF-8是全球最通用的编码字符集，如果没有特殊要求一律使用UTF8（约定优于配置）
 4. 演示：打开windows的记事本 看右下角是有UTF-8 这个说明的
 5. 字符和字节的关系是：一个英文字符等于一个字节，一个中文字符(含繁体)等于三个字节。
 这里的字节是一个存储大小的单位英文是 byte，一个字节是8比特（bit）
@@ -15,9 +15,9 @@
 #     'w'       open for writing, truncating the file first
 #     'x'       create a new file and open it for writing
 #     'a'       open for writing, appending to the end of the file if it exists
-file = open('D:\python实训\\6-文件操作\\windowsread.txt', 'r', encoding='UTF-8')
-print(file)
-print(type(file))  # I/O操作对象是所有开发语言都会进行涉及的要点即：input和output，是相对于内存与磁盘来描述的
+file = open('D:\python实训\\6-文件操作\\read.txt', 'r', encoding='UTF-8')
+# print(file)
+# print(type(file))  # I/O操作对象是所有开发语言都会进行涉及的要点即：input和output，是相对于内存与磁盘来描述的
 
 # 2. read() 读取文件
 # print(file.read(5)) # 表示读取五个字符
@@ -30,6 +30,8 @@ print(type(file))  # I/O操作对象是所有开发语言都会进行涉及的�
 # 4. readline()#读取一行
 # print(file.readline())  # 读取一行
 # print(file.readline())  # 读取一行
+# print("str\n")
+# print("str")
 
 # 5. 使用for循环读取文件，避免撑爆内存与延迟
 for line in file:
@@ -38,4 +40,13 @@ for line in file:
 # 6. 关闭文件 close
 # 举例子：如果我们同时打开一个word 她会提示被占用。
 # 我们操作完文件需要进行关闭，否则文件会被python一直占用。close他也会释放对应的资源
-file.close()
+# file.close()
+
+
+'''
+open
+read/readline
+close
+
+
+'''
