@@ -1,5 +1,5 @@
 """
-使用ide 安装第三方的package
+使用IDE 安装第三方的package
 
 jieba分词  安装jieba  file->settings -》 project -> python interpretor 点击+号 输入名字 点击下方的install
 matplotlib 数据可视化 绘图生成

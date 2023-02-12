@@ -12,7 +12,7 @@ for item in range(0, 10):
     if item <= 3:
         print(f'item: {item}')
     elif item > 3 and item < 7:
-        # continue
-        break
+        continue
+        # break
     else:
         print(f'我是else:{item}')

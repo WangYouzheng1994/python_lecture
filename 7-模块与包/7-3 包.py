@@ -3,7 +3,8 @@
 1. 新建一个 package
 2. package中会出现一个__init__.py的文件，这个文件的存在就决定了 这是一个 package
 3. 纠正青岛的ppt：python 没有严格意义的库的概念，因为一个module（python文件可以是一个库，但是一个package下面多个module 组成也可以是一个库~）
-4. __init__.py中限制import 自行百度
+4. __init__.py中限制import *的办法 自行百度
+5. 常说的 库 ：表示的是一个功能的集合，产品的集合，不是特指某一个xxx.py文件
 """
 
 """
@@ -12,7 +13,7 @@ numpy 科学计算
 pandas 数据分析 
 tensorflow 人工智能
 
-他们丰富了整个python的生态，因为这一堆包的存在 才让python变得好用
+他们丰富了整个python的生态，因为这一堆包（库）的存在 才让python变得好用
 """
 
 # 1 使用pip 安装外部包

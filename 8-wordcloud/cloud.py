@@ -3,24 +3,27 @@ import matplotlib.pyplot as plt
 import wordcloud
 from wordcloud import WordCloud
 
-path = "D:\python实训\8-wordcloud\关于进一步深化税收征管改革的意见2.txt" # 词云文本的路径
+path = "D:\\python实训\\8-wordcloud\\关于进一步深化税收征管改革的意见.txt" # 词云文本的路径
 
 with open(path, 'r', encoding="utf-8") as file:
     gaige = file.read() # 全部读取
 
-jieba_str = jieba.lcut(gaige)
+jieba_str = jieba.lcut(gaige) # ['关于', '进一步', '深化', '税收', '征管', '改革', '的', '意见']
 cut_text = " ".join(jieba_str)
-
-print(jieba.lcut('你好啊中国'))
+# print(cut_text)
+# print(jieba.lcut('关于进一步深化税收征管改革的意见'))
 # 配置停用词，也就是要处理掉分词后的那些不太重要的词汇 比如 的， 你，我，和这种高频的  但是没有实际意义的词汇
 # https://blog.csdn.net/luoluopan/article/details/114297744
 stopwords = wordcloud.STOPWORDS
 # stopwords.add('税务')
-# stopwords.add('的')
-# stopwords.add('和')
+stopwords.add('的')
+stopwords.add('和')
 # stopwords.add('税收')
 stopwords.add('你')
 stopwords.add("我")
+stopwords.add("吧")
+stopwords.add("中国")
+
 
 # 创建词云对象：1080p的画布
 word_cloud = WordCloud(

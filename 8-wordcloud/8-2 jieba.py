@@ -17,3 +17,4 @@ print(jieba.lcut(str))
 
 # 2 join 将序列（也就是字符串、元组、列表、字典）中的元素以指定的字符连接生成一个新的字符串
 print(" ".join(str)) # 将 传入的list 按照指定的字符串进行拼接并分割
+print("".join(str)) # 将 传入的list 按照指定的字符串进行拼接并分割
