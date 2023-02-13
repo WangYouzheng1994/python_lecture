@@ -23,3 +23,23 @@ print(v_float)
 #
 # # print连续输出
 print(123, 456, "123", "我是字符串")
+
+# 多变量同时赋值
+bianliang1, bianliang2, bianliang3 = [123,2,3]
+print(f"bianliang1={bianliang1}, bianliang2={bianliang2}, bianliang3={bianliang3}")
+
+# 多重复值的深入理解~
+"""
+赋值的过程是  先计算右边 然后把值给左边的变量。
+当出现多重赋值的时候 下面的例子等价于：
+a, b = 2, 1
+也就是先把 a+b,a 给计算好了然后再给左边的a和b
+"""
+a = 1
+b = 1
+a, b = a + b, a
+print(a, b)
+
+# 连续赋值
+bianliang1 = bianliang2 = bianliang3 = 123
+print(f"bianliang1={bianliang1}, bianliang2={bianliang2}, bianliang3={bianliang3}")

@@ -17,3 +17,11 @@ print(sorted(mytuple))
 # 倒叙 降序
 print(mytuple)
 print(sorted(mytuple, reverse=True))
+
+
+"""
+数据容器分为可变与不可变类型：
+    1. 可变类型：
+    2. 不可变类型：
+
+"""
