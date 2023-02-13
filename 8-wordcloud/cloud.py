@@ -29,16 +29,16 @@ stopwords.add("中国")
 word_cloud = WordCloud(
     # 注意字体设置（win 自带字体库，选择自己需要的字体即可）
     font_path="C:/Windows/Fonts/simfang.ttf",
-    background_color="white", # 背景色 白色
-    width=1920, # 画布的宽度
-    height=1080,# 画布高度
+    background_color="white",  # 背景色 白色
+    width=1920,  # 画布的宽度
+    height=1080,  # 画布高度
     stopwords=stopwords,
-    collocations=False).generate(cut_text) # 生成 并传入文字
+    collocations=False).generate(cut_text)  # 生成 并传入文字
 
 # 显示词云图
 plt.imshow(word_cloud)
 plt.axis('off') #关闭坐标轴
 plt.show() # 右侧进行显示
 
-# 保存词云图
+# 保存词云图，文件名为 chinese_word_cloud.png
 word_cloud.to_file("chinese_word_cloud.png")
