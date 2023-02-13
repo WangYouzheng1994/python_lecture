@@ -15,3 +15,4 @@ print(type(my_boolean)) # <class 'bool'>
 print(False == False)
 # 空值的匹配方式
 print(None is not None)
+print(None is None)
