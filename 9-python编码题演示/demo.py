@@ -1,7 +1,7 @@
 # 4. 下面程序的执行结果
-sum = 0
+sum = 0  # 注意 这个其实没用 他是全局变量
 for item in range(1, 100):
-    sum += item
+    sum += item  # 这里才是局部变量
     if item == 5:
         print(sum)
         break
