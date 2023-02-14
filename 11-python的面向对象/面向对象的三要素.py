@@ -1,23 +1,16 @@
+# 要素1： 封装
 """
-私有的成员内容
+1. 封装：将类中描述的属性和方法转为私有化，就是封装
+2. 私有化包括 私有属性和私有方法。 私有化的原因是 类最终会生成实例，实例中的内容不方便对外暴露的部分就需要私有化。
+3. 定义方式：__ 两个下划线命名开头的 成员和方法 会变成私有类型
+4. 私有成员与方法的限制为：外部无法通过 对象.的方式访问，只能在内部通过 self. 的方式访问
 """
-class Phone:
-    # 私有的成员变量
-    __voltage = None
 
-    def __get_voltage(self):
-        """
-        私有的成员方法 __get_voltage
-        :return:
-        """
-        print()
-    def getVoltage(self):
-        return self.__voltage
+# 要素2：继承
+"""
+1. 继承类型：单继承 和 多继承
+2. 
+"""
 
-    def setVoltage(self, param):
-        self.__voltage = param
 
-p = Phone()
-# p.__get_voltage()
-p.setVoltage(123)
-print(p.getVoltage())
+# 要素3：多态
