@@ -45,6 +45,6 @@ bianliang1 = bianliang2 = bianliang3 = 123
 print(f"bianliang1={bianliang1}, bianliang2={bianliang2}, bianliang3={bianliang3}")
 
 
-# python3.5以后的新特性： 变量类型提示，不起到限制类型的作用。 语法为： 变量名字:类型 = 值
+# python3.5以后的新特性： 变量类型注解提示，不起到限制类型的作用。 语法为： 变量名字:类型 = 值
 param_1: int = "123"
 print(f'param_1的值是{param_1},类型是{type(param_1)}')
