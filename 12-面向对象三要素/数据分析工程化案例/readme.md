@@ -3,4 +3,4 @@
 
 ### 技术栈
 1. pycharts
-2. 
+2. pandas

@@ -22,3 +22,5 @@ def plus(param1: int, param2: int) -> int:
 print(plus(2, 5))
 
 
+
+v_dict: dict[int:str, int:[str, int]] = {"a": 1, "b": 2}
