@@ -29,6 +29,13 @@ class Child(Parent, Parent_2):
         # print(f"self.a的值是:{self.a}, parent.a{super.a}")
         print(f"self.a的值是:{self.a}")
 
+    def c_pass(self):
+        """
+        使用pass关键字补充空方法
+        :return:
+        """
+        pass
+
 
 c = Child()
 c.c_func()
