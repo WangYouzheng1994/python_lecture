@@ -20,10 +20,12 @@ class TextFileReader(FileReader):
         self.path = path
 
     def read_data(self) -> list[Record]:
+        result_list = []
         with open(self.path, "r", encoding="UTF-8") as file:
             readlines = file.readlines()
             for line in readlines:
                 print(line.rstrip())
+                result_list.append(line.rstrip())
 
 """
 文件读取接口实现--JSON文本读取
