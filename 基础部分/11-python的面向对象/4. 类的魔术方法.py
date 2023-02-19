@@ -4,8 +4,8 @@
 
 
 class B:
-    aa: 1
-    bB: 2
+    aa= 1
+    bB= 2
 
     def __init__(self, name, age, gender):
         """

@@ -9,12 +9,12 @@
 
     https://www.runoob.com/python/python-strings.html
 """
-target_file = open('D:\\python实训\\6-文件操作\\6-3 综合案例\\t_demo.txt', 'w', encoding='UTF-8')
+target_file = open('/基础部分/6-文件操作/6-3 综合案例/t_demo.txt', 'w', encoding='UTF-8')
 # with open as语法
 # 相对路径 with open('/6-文件操作/6-3 综合案例\\source_demo.txt', 'r', encoding='UTF-8') as file:
 # 绝对路径，从盘符开始D:\python实训\6-文件操作\6-3 综合案例\source_demo.txt
 iter_num = 0
-with open('D:\\python实训\\6-文件操作\\6-3 综合案例\\source_demo.txt', 'r', encoding='UTF-8') as file:
+with open('/基础部分/6-文件操作/6-3 综合案例/source_demo.txt', 'r', encoding='UTF-8') as file:
     for line in file:
         # 截取
         if line[0:3] == 'ttt':

@@ -93,7 +93,7 @@ if __name__ == '__main__':
     # print(record)
     #
     print("#####start--批量的方式读取json文档文件")
-    json_file_reader = JSONFileReader("D:\\python实训\\12-面向对象三要素\\数据分析工程化案例\\test_full.json")
+    json_file_reader = JSONFileReader("/基础部分/12-面向对象三要素/数据分析工程化案例/test_full.json")
     json_file_reader.read_data_full()
     print("#####end--批量的方式读取json文档文件")
 

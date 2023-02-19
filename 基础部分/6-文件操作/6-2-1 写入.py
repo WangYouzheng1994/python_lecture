@@ -7,7 +7,7 @@
 # w模式表示是 写入（编辑） 需要进行r模式写入的演示. w模式下 文件存在会覆盖，文件不存在就自动创建
 
 # 1. 打开文件
-file = open('D:\\python实训\\6-文件操作\\write_demo.txt', 'w', encoding='UTF-8')
+file = open('/基础部分/6-文件操作/write_demo.txt', 'w', encoding='UTF-8')
 # file = open('D:/python实训/6-文件操作/writedemo.txt', 'w', encoding='UTF-8')
 # 2. 写入 write
 file.write("123444啊啊啊啊啊啊啊啊啊啊啊啊啊")

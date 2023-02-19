@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import wordcloud
 from wordcloud import WordCloud
 
-path = "D:\\python实训\\8-wordcloud\\关于进一步深化税收征管改革的意见.txt" # 词云文本的路径
+path = "/基础部分/8-wordcloud/关于进一步深化税收征管改革的意见.txt"  # 词云文本的路径
 
 with open(path, 'r', encoding="utf-8") as file:
     gaige = file.read() # 全部读取

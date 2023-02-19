@@ -5,7 +5,7 @@
 \n
 """
 # 1.打开
-file = open('D:\python实训\\6-文件操作\\writedemo1.txt', 'a', encoding='UTF-8')
+file = open('/基础部分/6-文件操作/writedemo1.txt', 'a', encoding='UTF-8')
 # 2. 写入
 file.write('1221211AAAAAAAAAAAAA')
 file.write('\n你好 这是我追加的行~')

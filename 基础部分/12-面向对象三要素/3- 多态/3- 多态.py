@@ -5,6 +5,7 @@
 class Animal:
     def eat(self):
         pass
+
     def sleep(self):
         pass
 
@@ -23,7 +24,7 @@ class Dog:
     def sleep(self):
         print("dog sleep")
 
-
+# 狗和猫重写了 Animal接口
 a = Dog()
 a.eat()
 a.sleep()

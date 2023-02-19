@@ -15,23 +15,23 @@
 #     'w'       open for writing, truncating the file first
 #     'x'       create a new file and open it for writing
 #     'a'       open for writing, appending to the end of the file if it exists
-file = open('D:\python实训\\6-文件操作\\read.txt', 'r', encoding='UTF-8')
-# print(file)
-# print(type(file))  # I/O操作对象是所有开发语言都会进行涉及的要点即：input和output，是相对于内存与磁盘来描述的
+file = open('/基础部分/6-文件操作/read.txt', 'r', encoding='UTF-8')
+print(file)
+print(type(file))  # I/O操作对象是所有开发语言都会进行涉及的要点即：input和output，是相对于内存与磁盘来描述的
 
 # 2. read() 读取文件
-# print(file.read(5)) # 表示读取五个字符
-# print(file.read(5)) # 又读取了5个，发现他自己继续往后了，是不是很像游标啊~
-# print(file.read()) # 读取所有
+print(file.read(5)) # 表示读取五个字符
+print(file.read(5)) # 又读取了5个，发现他自己继续往后了，是不是很像游标啊~
+print(file.read()) # 读取所有
 
 # 3. readlines() 读取全部行封装到list列表，如何判定的一行？Windows是'\r\n',Linux是'\n' pycharm的是 \n
-# print(file.readlines())  # 读取的内容为什么有个\n? 解答：所有\n, \r, or \r\n被默认转换为\n
+print(file.readlines())  # 读取的内容为什么有个\n? 解答：所有\n, \r, or \r\n被默认转换为\n
 
 # 4. readline()#读取一行
-# print(file.readline())  # 读取一行
-# print(file.readline())  # 读取一行
-# print("str\n")
-# print("str")
+print(file.readline())  # 读取一行
+print(file.readline())  # 读取一行
+print("str\n")
+print("str")
 
 # 5. 使用for循环读取文件，避免撑爆内存与延迟
 for line in file:
@@ -40,7 +40,7 @@ for line in file:
 # 6. 关闭文件 close
 # 举例子：如果我们同时打开一个word 她会提示被占用。
 # 我们操作完文件需要进行关闭，否则文件会被python一直占用。close他也会释放对应的资源
-# file.close()
+file.close()
 
 
 '''
