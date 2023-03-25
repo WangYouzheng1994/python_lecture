@@ -25,10 +25,11 @@ print(mylist[1:3])
 mytuple = (1, 3, 5, 7, 9, '11')
 # print(mytuple[:]) # 完整截取 相当于复制一个新的
 
-# # str 步长2截取
+# # str 从0位截取到4位
 str = '1234567'
 print(str[0:4])
-# print(str[::2])
+# # str 步长2截取
+print(str[::2])
 # #######反向操作#####
 # 1. str 切片 步长-1，相当于反转了因为他是从右到左获取的
 # print(str[::-1])
