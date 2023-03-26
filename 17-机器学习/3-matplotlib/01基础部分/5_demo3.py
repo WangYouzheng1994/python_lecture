@@ -1,4 +1,4 @@
-# 生成同坐标系中有多条折线图的案例
+# 生成同坐标系中有多条折线图的案例 subplots
 import random
 
 from matplotlib import pyplot as plt
@@ -21,7 +21,7 @@ y_label = range(40)  # 现在y的生成式基于 10 ~ 15的
 
 # 创建画布：经过测试没有这个也好使，猜测应该是有默认值....
 # plt.figure(figsize=(20, 8), dpi=100)
-# 构建一行三个 坐标系
+# 构建一行三个坐标系
 fig, axes = plt.subplots(nrows=1, ncols=3, figsize=(20, 8), dpi=100)
 
 # 坐标内容中的图形绘制
