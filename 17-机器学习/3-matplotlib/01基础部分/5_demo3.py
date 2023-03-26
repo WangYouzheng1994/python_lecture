@@ -1,4 +1,4 @@
-# 生成同坐标系中有多条折线图的案例 subplots
+# 生成同画布生成多个坐标系的折线图的案例 subplots
 import random
 
 from matplotlib import pyplot as plt
