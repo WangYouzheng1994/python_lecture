@@ -1,4 +1,4 @@
-# 生成多条折线图的案例
+# 生成同坐标系中有多条折线图的案例
 import random
 
 from matplotlib import pyplot as plt
