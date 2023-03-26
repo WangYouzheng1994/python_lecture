@@ -26,7 +26,10 @@ print(123, 456, "123", "我是字符串")
 
 # 多变量同时赋值
 bianliang1, bianliang2, bianliang3 = [123,2,3]
+bianliang4, bianliang5, bianliang6 = 5,4,3
 print(f"bianliang1={bianliang1}, bianliang2={bianliang2}, bianliang3={bianliang3}")
+print(f"bianliang4={bianliang4}, bianliang5={bianliang5}, bianliang6={bianliang6}")
+
 
 # 多重复值的深入理解~
 """
