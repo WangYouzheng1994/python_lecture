@@ -40,7 +40,7 @@ print(np.arange(10, 50, 2))
 #https://blog.csdn.net/zhouhaomy/article/details/121733014
 print(f'np.logspace:{np.logspace(0, 2, 3)}')
 print(f'np.logspace:{np.logspace(0, 2, 5)}')
-print(f'np.logspace2的从1到3次幂:{np.logspace(1, 3, 3,base=2)}')
+print(f'np.logspace2的从1到3次幂:{np.logspace(1, 3, 3, base=2)}')
 
 # 生成随机数组：从0~1之间的 一行三列的数组
 print(f'np.random.rand的随机数组:{np.random.rand(1, 3)}')
