@@ -15,3 +15,15 @@ print(multi_item_arr.size)
 unique_arr = np.unique(multi_item_arr)
 print(unique_arr)
 print(type(unique_arr))
+
+
+
+
+
+
+
+
+
+
+
+
