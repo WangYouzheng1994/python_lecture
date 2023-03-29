@@ -2,6 +2,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # 从-1 到1 ，选一亿个数
+
 x1 = np.random.uniform(-1, 1, 100000000)
 
 # 创建画布
