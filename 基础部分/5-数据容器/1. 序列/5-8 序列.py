@@ -32,9 +32,8 @@ print(str[0:4])
 print(str[::2])
 # #######反向操作#####
 # 1. str 切片 步长-1，相当于反转了因为他是从右到左获取的
-# print(str[::-1])
+print(str[::-1])
 # 2. list 从3 开始 到1 结束 步长-1
-# print(str[3:1:-2])
+print(str[3:1:-2])
 # # 3. 元祖 tuple 从头到尾 步长-3
-#
 print(mytuple[::-3])
